@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distant Reading Analysis - Literary Texts</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Distant Reading Analysis</h1>
+            <p class="subtitle">Comparative Literary Text Analysis</p>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="text-nav">
+            <button class="nav-btn active" data-text="wells">A Modern Utopia (H.G. Wells)</button>
+            <button class="nav-btn" data-text="dostoyevsky">Notes from the Underground (Dostoyevsky)</button>
+            <button class="nav-btn" data-text="comparison">Comparison</button>
+        </nav>
+
+        <!-- Main Content Area -->
+        <main id="main-content">
+
+            <!-- Single Text View -->
+            <div id="single-text-view" class="view-section active">
+                <div class="text-header">
+                    <h2 id="text-title">A Modern Utopia</h2>
+                    <p id="text-author">by H. G. Wells</p>
+                </div>
+
+                <!-- Basic Stats -->
+                <section class="stats-section">
+                    <h3>Basic Statistics</h3>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-label">Words</div>
+                            <div class="stat-value" id="word-count">-</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Sentences</div>
+                            <div class="stat-value" id="sentence-count">-</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Avg Sentence Length</div>
+                            <div class="stat-value" id="avg-sentence">-</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-label">Lexical Diversity</div>
+                            <div class="stat-value" id="lexical-diversity">-</div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Word Cloud -->
+                <section class="wordcloud-section">
+                    <h3>Word Cloud (Top 50 Words)</h3>
+                    <div id="wordcloud" class="wordcloud-container"></div>
+                </section>
+
+                <!-- Sentiment Analysis -->
+                <section class="sentiment-section">
+                    <h3>Sentiment Analysis</h3>
+                    <div class="sentiment-bars">
+                        <div class="sentiment-bar">
+                            <label>Positive</label>
+                            <div class="bar-container">
+                                <div class="bar positive" id="sentiment-positive" style="width: 0%"></div>
+                                <span class="bar-value" id="sentiment-positive-value">0%</span>
+                            </div>
+                        </div>
+                        <div class="sentiment-bar">
+                            <label>Negative</label>
+                            <div class="bar-container">
+                                <div class="bar negative" id="sentiment-negative" style="width: 0%"></div>
+                                <span class="bar-value" id="sentiment-negative-value">0%</span>
+                            </div>
+                        </div>
+                        <div class="sentiment-bar">
+                            <label>Neutral</label>
+                            <div class="bar-container">
+                                <div class="bar neutral" id="sentiment-neutral" style="width: 0%"></div>
+                                <span class="bar-value" id="sentiment-neutral-value">0%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="sentiment-metrics">
+                        <div class="metric">
+                            <span class="metric-label">Polarity:</span>
+                            <span class="metric-value" id="polarity">-</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-label">Subjectivity:</span>
+                            <span class="metric-value" id="subjectivity">-</span>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Thematic Analysis -->
+                <section class="thematic-section">
+                    <h3>Thematic Analysis</h3>
+                    <div class="theme-tabs">
+                        <button class="theme-tab active" data-theme="socialism">Socialism</button>
+                        <button class="theme-tab" data-theme="utopia">Utopia</button>
+                        <button class="theme-tab" data-theme="state">State</button>
+                    </div>
+                    <div id="theme-content" class="theme-content">
+                        <div class="theme-stats">
+                            <p><strong>Occurrences:</strong> <span id="theme-count">-</span></p>
+                            <p><strong>Density:</strong> <span id="theme-density">-</span> per 1000 words</p>
+                        </div>
+                        <div class="theme-examples">
+                            <h4>Examples in Context:</h4>
+                            <div id="theme-examples-list"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Style Metrics -->
+                <section class="style-section">
+                    <h3>Style Analysis</h3>
+                    <div class="style-grid">
+                        <div class="style-card">
+                            <h4>Vocabulary Richness</h4>
+                            <p><strong>Type-Token Ratio:</strong> <span id="ttr">-</span></p>
+                            <p><strong>Unique Words:</strong> <span id="unique-words">-</span></p>
+                            <p><strong>Avg Word Length:</strong> <span id="avg-word-length">-</span></p>
+                        </div>
+                        <div class="style-card">
+                            <h4>Sentence Complexity</h4>
+                            <p><strong>Avg Length:</strong> <span id="sentence-avg">-</span> words</p>
+                            <p><strong>Shortest:</strong> <span id="sentence-min">-</span> words</p>
+                            <p><strong>Longest:</strong> <span id="sentence-max">-</span> words</p>
+                        </div>
+                        <div class="style-card">
+                            <h4>Readability</h4>
+                            <p><strong>Flesch Reading Ease:</strong> <span id="flesch-ease">-</span></p>
+                            <p><strong>Flesch-Kincaid Grade:</strong> <span id="flesch-grade">-</span></p>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <!-- Comparison View -->
+            <div id="comparison-view" class="view-section">
+                <h2>Text Comparison</h2>
+
+                <section class="comparison-section">
+                    <h3>Overview</h3>
+                    <table class="comparison-table">
+                        <thead>
+                            <tr>
+                                <th>Metric</th>
+                                <th>Wells</th>
+                                <th>Dostoyevsky</th>
+                            </tr>
+                        </thead>
+                        <tbody id="comparison-table-body">
+                            <!-- Populated by JavaScript -->
+                        </tbody>
+                    </table>
+                </section>
+
+                <section class="comparison-section">
+                    <h3>Sentiment Comparison</h3>
+                    <div class="comparison-charts">
+                        <div class="comparison-chart">
+                            <h4>Wells</h4>
+                            <div id="wells-sentiment-chart"></div>
+                        </div>
+                        <div class="comparison-chart">
+                            <h4>Dostoyevsky</h4>
+                            <div id="dostoyevsky-sentiment-chart"></div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="comparison-section">
+                    <h3>Word Clouds Comparison</h3>
+                    <div class="comparison-wordclouds">
+                        <div class="comparison-wordcloud">
+                            <h4>A Modern Utopia (Wells)</h4>
+                            <div id="wells-wordcloud-compare" class="wordcloud-container"></div>
+                        </div>
+                        <div class="comparison-wordcloud">
+                            <h4>Notes from the Underground (Dostoyevsky)</h4>
+                            <div id="dostoyevsky-wordcloud-compare" class="wordcloud-container"></div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+        </main>
+
+        <footer>
+            <p>Generated from Project Gutenberg texts | Analysis Date: <span id="analysis-date">-</span></p>
+        </footer>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

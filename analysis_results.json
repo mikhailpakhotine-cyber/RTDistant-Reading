@@ -1,0 +1,657 @@
+{
+  "metadata": {
+    "analysis_date": "2025-11-30T17:55:56.227562",
+    "texts_analyzed": 2,
+    "stop_words_count": 180
+  },
+  "texts": {
+    "wells": {
+      "title": "A Modern Utopia",
+      "author": "H. G. Wells",
+      "id": "wells",
+      "basic_stats": {
+        "word_count": 94134,
+        "sentence_count": 4081,
+        "character_count": 540071
+      },
+      "word_frequencies": [
+        {
+          "word": "world",
+          "count": 352
+        },
+        {
+          "word": "utopia",
+          "count": 308
+        },
+        {
+          "word": "man",
+          "count": 286
+        },
+        {
+          "word": "men",
+          "count": 247
+        },
+        {
+          "word": "state",
+          "count": 221
+        },
+        {
+          "word": "little",
+          "count": 196
+        },
+        {
+          "word": "utopian",
+          "count": 189
+        },
+        {
+          "word": "people",
+          "count": 168
+        },
+        {
+          "word": "things",
+          "count": 163
+        },
+        {
+          "word": "great",
+          "count": 157
+        },
+        {
+          "word": "life",
+          "count": 150
+        },
+        {
+          "word": "modern",
+          "count": 142
+        },
+        {
+          "word": "say",
+          "count": 125
+        },
+        {
+          "word": "first",
+          "count": 118
+        },
+        {
+          "word": "sort",
+          "count": 111
+        },
+        {
+          "word": "time",
+          "count": 106
+        },
+        {
+          "word": "thing",
+          "count": 105
+        },
+        {
+          "word": "good",
+          "count": 101
+        },
+        {
+          "word": "women",
+          "count": 99
+        },
+        {
+          "word": "earth",
+          "count": 99
+        },
+        {
+          "word": "botanist",
+          "count": 97
+        },
+        {
+          "word": "work",
+          "count": 96
+        },
+        {
+          "word": "mind",
+          "count": 94
+        },
+        {
+          "word": "samurai",
+          "count": 94
+        },
+        {
+          "word": "certain",
+          "count": 90
+        },
+        {
+          "word": "common",
+          "count": 88
+        },
+        {
+          "word": "way",
+          "count": 86
+        },
+        {
+          "word": "find",
+          "count": 86
+        },
+        {
+          "word": "human",
+          "count": 85
+        },
+        {
+          "word": "whole",
+          "count": 81
+        },
+        {
+          "word": "section",
+          "count": 79
+        },
+        {
+          "word": "different",
+          "count": 77
+        },
+        {
+          "word": "general",
+          "count": 73
+        },
+        {
+          "word": "new",
+          "count": 72
+        },
+        {
+          "word": "far",
+          "count": 71
+        },
+        {
+          "word": "rule",
+          "count": 71
+        },
+        {
+          "word": "back",
+          "count": 70
+        },
+        {
+          "word": "last",
+          "count": 68
+        },
+        {
+          "word": "order",
+          "count": 68
+        },
+        {
+          "word": "social",
+          "count": 66
+        },
+        {
+          "word": "something",
+          "count": 66
+        },
+        {
+          "word": "doubt",
+          "count": 66
+        },
+        {
+          "word": "children",
+          "count": 65
+        },
+        {
+          "word": "hand",
+          "count": 64
+        },
+        {
+          "word": "race",
+          "count": 64
+        },
+        {
+          "word": "beyond",
+          "count": 62
+        },
+        {
+          "word": "public",
+          "count": 62
+        },
+        {
+          "word": "freedom",
+          "count": 62
+        },
+        {
+          "word": "free",
+          "count": 61
+        },
+        {
+          "word": "idea",
+          "count": 61
+        }
+      ],
+      "sentiment": {
+        "positive": 0.739,
+        "negative": 0.261,
+        "neutral": -0.0,
+        "compound": 0.0046,
+        "polarity": 0.478,
+        "subjectivity": 0.01
+      },
+      "thematic_analysis": {
+        "socialism": {
+          "count": 406,
+          "density": 4.31,
+          "examples": [
+            {
+              "keyword": "labor",
+              "sentence": "\"\nIt will be evident to the experienced reader that by omitting\ncertain speculative and metaphysical elements and by elaborating\nincident, this book might have been reduced to a straightforward\nstory"
+            },
+            {
+              "keyword": "labor",
+              "sentence": "Occasionally the\npicture goes out altogether, the Voice argues and argues, and the\nfootlights return, and then you find yourself listening again to the\nrather too plump little man at his table laborio..."
+            },
+            {
+              "keyword": "equality",
+              "sentence": "For one ordered arrangement of\ncitizens rejoicing in an equality of happiness safe and assured\nto them and their children for ever, we have to plan \"a flexible\ncommon compromise, in which a perpetuall..."
+            },
+            {
+              "keyword": "common",
+              "sentence": "So much we adopt\nin common with those who deal not in Utopias, but in the world of\nHere and Now"
+            },
+            {
+              "keyword": "common",
+              "sentence": "Their common fault is to be comprehensively\njejune"
+            }
+          ]
+        },
+        "utopia": {
+          "count": 898,
+          "density": 9.54,
+          "examples": [
+            {
+              "keyword": "utopia",
+              "sentence": "Produced by Andrew Sly\n\n\n\n\n\n\nA MODERN UTOPIA\n\nBY H"
+            },
+            {
+              "keyword": "future",
+              "sentence": "In Mankind in the Making, therefore, I tried to review\nthe social organisation in a different way, to consider it as an\neducational process instead of dealing with it as a thing with\na future history,..."
+            },
+            {
+              "keyword": "utopia",
+              "sentence": "In this present book I have\ntried to settle accounts with a number of issues left over or opened\nup by its two predecessors, to correct them in some particulars, and\nto give the general picture of a U..."
+            },
+            {
+              "keyword": "ideal",
+              "sentence": "In its\ntwo predecessors the treatment of social organisation had been\npurely objective; here my intention has been a little wider and\ndeeper, in that I have tried to present not simply an ideal, but a..."
+            },
+            {
+              "keyword": "utopia",
+              "sentence": "I tried over several beginnings of\na Utopian book before I adopted this"
+            }
+          ]
+        },
+        "state": {
+          "count": 1004,
+          "density": 10.67,
+          "examples": [
+            {
+              "keyword": "political",
+              "sentence": "I wrote that book in order to clear up\nthe muddle in my own mind about innumerable social and political\nquestions, questions I could not keep out of my work, which it\ndistressed me to touch upon in a ..."
+            },
+            {
+              "keyword": "state",
+              "sentence": "I have a slow\nconstructive hesitating sort of mind, and when I emerged from that\nundertaking I found I had still most of my questions to state and\nsolve"
+            },
+            {
+              "keyword": "state",
+              "sentence": "In this present book I have\ntried to settle accounts with a number of issues left over or opened\nup by its two predecessors, to correct them in some particulars, and\nto give the general picture of a U..."
+            },
+            {
+              "keyword": "nation",
+              "sentence": "If you are not already a little\ninterested and open-minded with regard to social and political\nquestions, and a little exercised in self-examination, you will find\nneither interest nor pleasure here"
+            },
+            {
+              "keyword": "nation",
+              "sentence": "I explain all this in order\nto make it clear to the reader that, however queer this book\nappears at the first examination, it is the outcome of trial and\ndeliberation, it is intended to be as it is"
+            }
+          ]
+        }
+      },
+      "vocabulary_richness": {
+        "total_words": 94134,
+        "unique_words": 9964,
+        "type_token_ratio": 0.1058,
+        "lexical_diversity": 10.58,
+        "average_word_length": 4.56
+      },
+      "sentence_complexity": {
+        "total_sentences": 4081,
+        "average_sentence_length": 22.87,
+        "sentence_length_variance": 319.37,
+        "shortest_sentence": 1,
+        "longest_sentence": 161
+      },
+      "readability": {
+        "flesch_reading_ease": 53.44,
+        "flesch_kincaid_grade": 11.54
+      }
+    },
+    "dostoyevsky": {
+      "title": "Notes from the Underground",
+      "author": "Fyodor Dostoyevsky",
+      "id": "dostoyevsky",
+      "basic_stats": {
+        "word_count": 44625,
+        "sentence_count": 2654,
+        "character_count": 239804
+      },
+      "word_frequencies": [
+        {
+          "word": "man",
+          "count": 128
+        },
+        {
+          "word": "time",
+          "count": 85
+        },
+        {
+          "word": "nothing",
+          "count": 75
+        },
+        {
+          "word": "love",
+          "count": 74
+        },
+        {
+          "word": "course",
+          "count": 73
+        },
+        {
+          "word": "say",
+          "count": 71
+        },
+        {
+          "word": "life",
+          "count": 70
+        },
+        {
+          "word": "simply",
+          "count": 69
+        },
+        {
+          "word": "never",
+          "count": 68
+        },
+        {
+          "word": "something",
+          "count": 68
+        },
+        {
+          "word": "way",
+          "count": 60
+        },
+        {
+          "word": "away",
+          "count": 59
+        },
+        {
+          "word": "don",
+          "count": 57
+        },
+        {
+          "word": "zverkov",
+          "count": 56
+        },
+        {
+          "word": "let",
+          "count": 55
+        },
+        {
+          "word": "good",
+          "count": 55
+        },
+        {
+          "word": "face",
+          "count": 53
+        },
+        {
+          "word": "began",
+          "count": 53
+        },
+        {
+          "word": "last",
+          "count": 50
+        },
+        {
+          "word": "always",
+          "count": 50
+        },
+        {
+          "word": "everything",
+          "count": 50
+        },
+        {
+          "word": "gentlemen",
+          "count": 49
+        },
+        {
+          "word": "first",
+          "count": 47
+        },
+        {
+          "word": "look",
+          "count": 47
+        },
+        {
+          "word": "suddenly",
+          "count": 46
+        },
+        {
+          "word": "fact",
+          "count": 45
+        },
+        {
+          "word": "went",
+          "count": 45
+        },
+        {
+          "word": "simonov",
+          "count": 44
+        },
+        {
+          "word": "really",
+          "count": 43
+        },
+        {
+          "word": "better",
+          "count": 42
+        },
+        {
+          "word": "day",
+          "count": 42
+        },
+        {
+          "word": "thing",
+          "count": 42
+        },
+        {
+          "word": "reason",
+          "count": 41
+        },
+        {
+          "word": "eyes",
+          "count": 41
+        },
+        {
+          "word": "years",
+          "count": 40
+        },
+        {
+          "word": "whole",
+          "count": 38
+        },
+        {
+          "word": "people",
+          "count": 37
+        },
+        {
+          "word": "point",
+          "count": 37
+        },
+        {
+          "word": "heart",
+          "count": 37
+        },
+        {
+          "word": "liza",
+          "count": 37
+        },
+        {
+          "word": "understand",
+          "count": 36
+        },
+        {
+          "word": "want",
+          "count": 36
+        },
+        {
+          "word": "minute",
+          "count": 36
+        },
+        {
+          "word": "stupid",
+          "count": 36
+        },
+        {
+          "word": "anything",
+          "count": 35
+        },
+        {
+          "word": "sort",
+          "count": 35
+        },
+        {
+          "word": "put",
+          "count": 35
+        },
+        {
+          "word": "felt",
+          "count": 34
+        },
+        {
+          "word": "room",
+          "count": 34
+        },
+        {
+          "word": "nature",
+          "count": 34
+        }
+      ],
+      "sentiment": {
+        "positive": 0.566,
+        "negative": 0.434,
+        "neutral": 0.0,
+        "compound": 0.0015,
+        "polarity": 0.133,
+        "subjectivity": 0.011
+      },
+      "thematic_analysis": {
+        "socialism": {
+          "count": 27,
+          "density": 0.61,
+          "examples": [
+            {
+              "keyword": "common",
+              "sentence": "I have tried to expose to the view of the public more\ndistinctly than is commonly done, one of the characters of the recent\npast"
+            },
+            {
+              "keyword": "equal",
+              "sentence": "But I was not equal even to that"
+            }
+          ]
+        },
+        "utopia": {
+          "count": 120,
+          "density": 2.69,
+          "examples": [
+            {
+              "keyword": "imaginary",
+              "sentence": "Notes from the Underground\n\nby Fyodor Dostoyevsky\n\n\nContents\n\n NOTES FROM THE UNDERGROUND\n\n PART I Underground\n I\n II\n III\n IV\n V\n VI\n VII\n VIII\n IX\n X\n XI\n\n PART II À Propos of the Wet Snow\n I\n II\n I..."
+            },
+            {
+              "keyword": "perfect",
+              "sentence": "Of course, I can’t explain who it is precisely\nthat I am mortifying in this case by my spite: I am perfectly well\naware that I cannot “pay out” the doctors by not consulting them; I\nknow better than a..."
+            },
+            {
+              "keyword": "reason",
+              "sentence": "I was in the service\nthat I might have something to eat (and solely for that reason), and\nwhen last year a distant relation left me six thousand roubles in his\nwill I immediately retired from the serv..."
+            },
+            {
+              "keyword": "reason",
+              "sentence": "but what do I care for the laws of nature and\narithmetic, when, for some reason I dislike those laws and the fact\nthat twice two makes four"
+            },
+            {
+              "keyword": "progress",
+              "sentence": "I ask you, gentlemen, listen sometimes to the moans of\nan educated man of the nineteenth century suffering from toothache, on\nthe second or third day of the attack, when he is beginning to moan,\nnot a..."
+            }
+          ]
+        },
+        "state": {
+          "count": 116,
+          "density": 2.6,
+          "examples": [
+            {
+              "keyword": "public",
+              "sentence": "I have tried to expose to the view of the public more\ndistinctly than is commonly done, one of the characters of the recent\npast"
+            },
+            {
+              "keyword": "government",
+              "sentence": "I used to be in the government service, but am no longer"
+            },
+            {
+              "keyword": "law",
+              "sentence": "And the worst of it was, and the root of it all, that it was all in\naccord with the normal fundamental laws of over-acute consciousness,\nand with the inertia that was the direct result of those laws, ..."
+            },
+            {
+              "keyword": "law",
+              "sentence": "And what is most\nhumiliating of all, to blame for no fault of my own but, so to say,\nthrough the laws of nature"
+            },
+            {
+              "keyword": "law",
+              "sentence": "I should certainly have never been\nable to do anything from being magnanimous—neither to forgive, for my\nassailant would perhaps have slapped me from the laws of nature, and\none cannot forgive the law..."
+            }
+          ]
+        }
+      },
+      "vocabulary_richness": {
+        "total_words": 44625,
+        "unique_words": 4751,
+        "type_token_ratio": 0.1065,
+        "lexical_diversity": 10.65,
+        "average_word_length": 4.15
+      },
+      "sentence_complexity": {
+        "total_sentences": 2654,
+        "average_sentence_length": 16.7,
+        "sentence_length_variance": 225.82,
+        "shortest_sentence": 1,
+        "longest_sentence": 185
+      },
+      "readability": {
+        "flesch_reading_ease": 71.61,
+        "flesch_kincaid_grade": 7.45
+      }
+    }
+  },
+  "comparison": {
+    "word_count_ratio": 2.11,
+    "vocabulary_richness_comparison": {
+      "wells_ttr": 0.1058,
+      "dostoyevsky_ttr": 0.1065,
+      "difference": -0.0007
+    },
+    "sentence_complexity_comparison": {
+      "wells_avg": 22.87,
+      "dostoyevsky_avg": 16.7,
+      "difference": 6.17
+    },
+    "sentiment_comparison": {
+      "wells_compound": 0.0046,
+      "dostoyevsky_compound": 0.0015,
+      "wells_polarity": 0.478,
+      "dostoyevsky_polarity": 0.133
+    },
+    "readability_comparison": {
+      "wells_fre": 53.44,
+      "dostoyevsky_fre": 71.61,
+      "easier_to_read": "Dostoyevsky"
+    }
+  }
+}
